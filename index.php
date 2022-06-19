@@ -54,7 +54,7 @@
 	<div class="home-main">
 		
 		<div class="search-bar">
-			<h1>Search for a textbook you'd like to buy or sell.</h1>
+			<h1>Find a textbook you'd like to buy or sell.</h1>
 			<form id="search-form" >
 				<input id="searched-book" type="text" placeholder="essential calculus" onclick="">
 			</form>
