@@ -59,7 +59,7 @@
 		<div class="search-bar">
 			<h1>Find a textbook you'd like to buy or sell.</h1>
 			<form id="search-form" >
-				<input id="searched-book" type="text" placeholder="essential calculus" onclick="">
+				<input id="searched-book" type="text" placeholder="organic chemistry" onclick="">
 			</form>
 		</div><!-- .search-bar -->
 		<div id="book-list">

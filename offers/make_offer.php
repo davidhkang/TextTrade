@@ -97,7 +97,7 @@ require '../config/config.php';
 			console.log('Error!');
 		});
 	}
-	const displayResults = (response) {
+	const displayResults = (response) => {
 		if (response.volumeInfo.subtitle != undefined){
 			$('.offer-form .title').html(response.volumeInfo.title + ": " + response.volumeInfo.subtitle);
 		}else{

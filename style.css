@@ -34,7 +34,7 @@ input[type="search"] {
 }
 
 /* USE THIS TO TEST COLORS */
-body, input, a{
+body, input, a, button{
 	background-color: #FFFFFF;
 }
 
@@ -117,7 +117,7 @@ body, input, a{
 	font-weight: 400;
 }
 #navbar .active, #navbar a:hover{
-	border-bottom: 1px solid #222222;
+	border-bottom: 2px solid #DBD5D1;
 	padding-bottom: 4px;
 }
 .main-nav #logo{
@@ -176,7 +176,7 @@ body, input, a{
 	padding-top: 15px;
 	padding-bottom: 20px;
 	border: none;
-	border-bottom: 1px solid #222222;
+	border-bottom: 2px solid #DBD5D1;
 	font-size: 1.5em;
 	color: #222222;
 	transition: 1s;
@@ -195,15 +195,19 @@ body, input, a{
 		transform: translate(0px, -50px);
 		opacity: 1;
 	}
-}	
+}
+.books {
+	height:  auto;
+}
 .book-cover{
 	float:left;
 	margin-right: 30px;
+	border-radius:0.5em;
 }
 #book-list hr{
 	margin-bottom: 30px;
 	border: none;
-	border-bottom: 1px solid #222222;
+	border-bottom: 2px solid white;
 }
 
 #book-list .title{
@@ -219,6 +223,7 @@ body, input, a{
 #book-list .author{
 	font-size: 1.1em;
 	margin-bottom: 10px;
+	color: gray;
 }
 #book-list .description{
 	font-size: 0.9em;
@@ -286,41 +291,42 @@ body, input, a{
 }
 hr{
 	border: none;
-	border-bottom: 1px solid #222222;
+	border-bottom: 2px solid #DBD5D1;
 	margin: 20px 0px;
 }
 .red-button{
 	display: inline-block;
 	padding:0.5em 0.5em;
-	border-radius:0.12em;
+	border-radius:0.3em;
 	text-decoration:none;
 	margin-right: 5px;
 	transition: 0.3s;
 	margin-top: 5px;
 	background-color: white;
-	color: #EC210B;
-	border: 1px solid #EC210B;
+	color: #ec210bd6;
+	border: 2px solid #ec210bd6;
 	font-size: 18px;
 }
 .red-button:hover{
 	color: white;
-	background-color: #EC210B;
+	background-color: #ec210bd6;
 }
 .black-button{
 	display: inline-block;
 	padding:0.5em 0.5em;
-	border-radius:0.12em;
+	border-radius:0.3em;
 	text-decoration:none;
 	margin-right: 5px;
 	transition: 0.3s;
 	margin-top: 5px;
-	color: black;
-	border: 1px solid black;
+	color: #000000c9;
+	border: 2px solid #000000c9;
 	font-size: 18px;
 }
 .black-button:hover{
 	color: white;
-	background-color: black;
+	background-color: #000000c9;
+	border: 2px solid #000000c9;
 }
 
 
@@ -343,6 +349,7 @@ hr{
 .author{
 	margin-top: 8px;
 	font-size: 1.3em;
+	color: gray;
 }
 .offer-form .title, .offer-form .author{
 	font-weight: bold;
@@ -363,11 +370,11 @@ input[type="radio"] {
 	position: fixed;
 }
 input[type="radio"]:checked + label{
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid #DBD5D1;
 	padding-bottom: 5px;
 }
 .condition-inputs:hover{
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid #DBD5D1;
 	padding-bottom: 5px;
 }
 
@@ -377,7 +384,7 @@ input[type="radio"]:checked + label{
 	margin-top: 5px;
     display: inline-block;
     border: none;
-    border-bottom: 1px solid ;
+    border-bottom: 2px solid #DBD5D1;
     box-sizing: border-box;
     font-size: 1em;
 }
@@ -386,7 +393,7 @@ input[type="radio"]:checked + label{
 	padding-bottom: 5px;
     display: inline-block;
     border: none;
-    border-bottom: 1px solid ;
+    border-bottom: 2px solid #DBD5D1;
     box-sizing: border-box;
     font-size: 1em;
     margin-bottom: 10px;
@@ -425,7 +432,7 @@ input[type="radio"]:checked + label{
 }
 .offers-table, th, td {
 	font-size: 1.1em;
- 	 border-bottom: 1px solid black;
+ 	 border-bottom: 2px solid #DBD5D1;
  	 border-collapse: collapse;
  	 padding: 10px 0px;
  	 padding-right: 30px;
@@ -448,7 +455,7 @@ input[type="radio"]:checked + label{
 	padding-bottom: 5px;
     display: inline-block;
     border: none;
-    border-bottom: 1px solid ;
+    border-bottom: 2px solid #DBD5D1;
     box-sizing: border-box;
     font-size: 1.3em;
     margin-bottom: 10px;
@@ -530,6 +537,7 @@ input[type="radio"]:checked + label{
 }
 .my-books-results .author{
 	font-size: 1em;
+	color: gray;
 }
 .my-books-results .price{
 	font-size: 1.3em;
