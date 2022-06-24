@@ -14,11 +14,11 @@
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:image" content="images/logo.png">
+    <meta property="og:image" content="assets/logo.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="TextTrade">
     <meta property="og:description" content="A platform for Trojans to buy and sell used textbooks." >
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="assets/favicon.png">
 		
 
     <!-- External CSS -->
@@ -39,7 +39,7 @@
 	
 
 	<div class="main-nav">
-		<a href="index.php"><img alt="logo" id="logo" src="images/logo.png"></a>
+		<a href="index.php"><img alt="logo" id="logo" src="assets/logo.png"></a>
 		<div id="navbar">
 			<a href="index.php" class="active">Search</a>
 			<a href="offers/my_books.php">My Books</a>
@@ -119,7 +119,7 @@
 				if(response.items[i].volumeInfo.imageLinks != undefined){
 					$('#book-list .books:last-child() img').attr("src",response.items[i].volumeInfo.imageLinks.thumbnail);
 				}else{
-					$('#book-list .books:last-child() img').attr("src", "images/bookcover.png");
+					$('#book-list .books:last-child() img').attr("src", "assets/bookcover.png");
 				}
 				
 

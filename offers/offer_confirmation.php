@@ -56,7 +56,7 @@ if ( !isset($_POST['condition']) || empty($_POST['condition'])
 	<!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="../images/favicon.png">
+	<link rel="icon" href="../assets/favicon.png">
   <!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<!-- Fonts -->

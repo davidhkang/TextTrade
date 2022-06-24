@@ -8,7 +8,7 @@ require '../config/config.php';
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="../images/favicon.png">
+	<link rel="icon" href="../assets/favicon.png">
 	
     <!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="../style.css">
@@ -19,7 +19,7 @@ require '../config/config.php';
 </head>
 <body>
 	<div class="main-nav">
-		<a href="../index.php"><img alt="logo" id="logo" src="../images/logo.png"></a>
+		<a href="../index.php"><img alt="logo" id="logo" src="../assets/logo.png"></a>
 		<div id="navbar">
 			<a href="../index.php">Search</a>
 			<a href="../offers/my_books.php">My Books</a>

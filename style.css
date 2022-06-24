@@ -1,8 +1,12 @@
+@font-face {
+	src: url(assets/SF-Pro.ttf);
+	font-family: SF-Pro;
+}
 *{
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
-	font-family: Inter, sans-serif;
+	font-family: SF-Pro, sans-serif;
 }
 input:focus,
 select:focus,
