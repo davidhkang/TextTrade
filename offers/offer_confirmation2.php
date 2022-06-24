@@ -11,7 +11,7 @@
 
     <!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="../style.css">
-	<link rel="icon" href="../images/favicon.png">
+	<link rel="icon" href="../assets/favicon.png">
 	
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
 </head>
 <body>
 	<div class="main-nav">
-		<a href="../index.php"><img alt="logo" id="logo" src="../images/logo.png"></a>
+		<a href="../index.php"><img alt="logo" id="logo" src="../assets/logo.png"></a>
 		<div id="navbar">
 			<a href="../index.php" class="active">Search</a>
 			<a href="../offers/my_books.php">My Books</a>
