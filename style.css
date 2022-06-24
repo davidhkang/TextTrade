@@ -114,6 +114,7 @@ body, input, a{
 	text-decoration: none;
 	color: #222222;
 	padding-bottom: 5px;
+	font-weight: 400;
 }
 #navbar .active, #navbar a:hover{
 	border-bottom: 1px solid #222222;
@@ -161,7 +162,7 @@ body, input, a{
 }
 .search-bar h1{
 	font-size: 3rem;
-	font-weight: 700;
+	font-weight: 600;
 	letter-spacing: -.066875rem;
 	color: #222222;
 	margin-bottom: 10px;
@@ -206,7 +207,7 @@ body, input, a{
 }
 
 #book-list .title{
-	font-weight: bold;
+	font-weight: 600;
 	font-size: 1.7em;
 	margin-bottom: 5px;
 }
@@ -296,6 +297,7 @@ hr{
 	margin-right: 5px;
 	transition: 0.3s;
 	margin-top: 5px;
+	background-color: white;
 	color: #EC210B;
 	border: 1px solid #EC210B;
 	font-size: 18px;
