@@ -31,11 +31,11 @@ input[type="search"] {
 
 /* USE THIS TO TEST COLORS */
 body, input, a{
-	background-color: #FDF1F3;
+	background-color: #FFFFFF;
 }
 
 ::placerholder{
-	background-color: #FDF1F3;
+	background-color: #FFFFFF;
 }
 
 /* pre-loader */
@@ -45,7 +45,7 @@ body, input, a{
 	position: absolute;
 	top:0;
 	left:0;
-	background-color: #FDF1F3;
+	background-color: #FFFFFF;
 	z-index: 2;
 }
 .secondary-loader-wrapper{
@@ -54,7 +54,7 @@ body, input, a{
 	position: absolute;
 	top:10vh;
 	left:0;
-	background-color: #FDF1F3;
+	background-color: #FFFFFF;
 	z-index: 2;
 }
 .secondary-spinner{
@@ -129,7 +129,7 @@ body, input, a{
 .small{
 	height: 100px;
 	padding-top: 0px;
-	background-color: #FDF1F3;
+	background-color: #FFFFFF;
 	box-shadow: 0 2px 12px 2px rgba(0,0,0,.18);
 }
 
